@@ -1,0 +1,218 @@
+/* цвет заголовков текста #212121 */
+/* цвет текста #757575 */
+/* цвет белий #FFFFFF */
+/* акцент #2196F3 */
+/* цвет адреса rgba(255, 255, 255, 0.6) */
+
+/* вторичный цвет фона #F5F4FA */
+/* подвал цвет фона  #F5F4FA */
+
+:root {
+    --main-font: "Roboto", sans-serif;
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --title-adres-color: rgba(255, 255, 255, 0.6);
+    --main-background-color: #FFFFFF;
+    --secondary-background-color: #F5F4FA;
+    --color-footer: #2F303A;
+}
+
+body {
+    font-family: var(--main-font);
+    font-style: normal;
+    background-color: var(--main-background-color);
+    color: var(--primary-text-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.accent {
+    color: var(--accent-color);
+}
+
+.auth-nav {
+    font-style: normal;
+} 
+
+
+
+/* header */
+.sate-nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+}
+
+.sate-nav-link:hover,
+.sate-nav-link:focus, 
+.nav:hover,
+.nav:focus {
+    color: var(--accent-color);
+}
+.current {
+    color: var(--accent-color);
+}
+
+.nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+/* Hero */
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.364;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+/* Feasture */
+.feasture-list-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+}
+
+.feasture-list-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+}
+
+/* Work */ 
+.work-title,
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.167;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+/* Team */
+.team {
+    background-color: var(--secondary-background-color);
+}
+
+.team-list-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.188;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+.team-list-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.188;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+
+/* Address */
+.footer {
+    background-color: var(--color-footer);
+}
+
+.address-list-website {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.address-list-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: var(--title-adres-color);
+}
+
+.footer .logo {
+    color: #FFFFFF;
+}
+
+/* portfolio */
+.portfolio-filter-button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+.portfolio-filter-button:hover,
+.portfolio-filter-button:focus {
+    background-color: var(--accent-color);
+    color: #FFFFFF;
+}
+
+.portfolio-list-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-text-color);
+}
+
+.portfolio-list-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
